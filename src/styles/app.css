@@ -1,0 +1,50 @@
+:root {
+  /* colors */
+    --color-white: #ffffff;
+    --color-gray: #d8d8d8;
+    --color-gray-40: rgba(216, 216, 216, 0.4);
+    --background-color: #e4e3e3;
+    --color-black-text: #14151a;
+  /* border-radius */
+    --border-radius-small: 0.25em;
+    --border-radius-big: 0.75em;
+  /* background-image-linear-gradient */
+    --dark-linear-gradient: linear-gradient(to bottom, #444b52 -125%, #0b0a0e);
+  /* box shadow */
+    --box-shadow: -3px 0 10px 0 rgba(18, 18, 19, 0.1), 3px 0 10px 0 rgba(18, 18, 19, 0.1);
+  }
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;;
+  letter-spacing: normal;
+  color: var(--color-black-text);
+  background-color: var(--background-color);
+  font-size: 2rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.background-grid {
+  height: 100vh;
+  background-color: var(--background-color);
+  background-image: linear-gradient(var(--color-gray-40) .05em, transparent .1em), linear-gradient(90deg, var(--color-gray-40) .05em, transparent .1em);
+  background-size: 2em 2em;
+}

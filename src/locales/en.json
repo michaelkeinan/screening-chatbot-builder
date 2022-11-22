@@ -1,0 +1,11 @@
+{
+    "titles": {
+        "appHeaderTitle": "Screening Chatbot Builder",
+        "dropdownTitle": "Please select a chat to display:",
+        "multiChoiceTitle": "Possible answers:"
+    },
+    "tooltips": {
+        "appHeaderIconTooltip": "Olivia ? where are you ?",
+        "dropdownTooltip": "Selectable chat Id's"
+    }
+}
